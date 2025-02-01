@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 import { Component4 } from "../../icons/Component4";
 import { LogoWrapper } from "../LogoWrapper";
 import "./topnavigationbar.css";
 
 interface Props {
-  //property1: type;
   className?: string;
   frame?: string;
   img?: string;
@@ -14,17 +14,15 @@ export const TopNavigationBar = ({
   frame = "https://c.animaapp.com/e1d4PZQa/img/frame-1597884373.svg",
   img = "https://c.animaapp.com/e1d4PZQa/img/frame-407.svg",
 }: Props): JSX.Element => {
-  console.log("farme", frame);
   return (
-    
     <div className={`top-navigation-bar ${className}`}>
       <div className="frame-28">
         <LogoWrapper className="LOGO-2" />
         <div className="frame-29">
-          <div className="text-wrapper-17">Home</div>
-          <div className="text-wrapper-17">Learning Hub</div>
-          <div className="text-wrapper-17">Appointment</div>
-          <div className="text-wrapper-17">Events</div>
+          <Link to="/" className="text-wrapper-17">Home</Link>
+          <Link to="/learning-hub" className="text-wrapper-17">Learning Hub</Link>
+          <Link to="/appointment" className="text-wrapper-17">Appointment</Link>
+          <Link to="/events" className="text-wrapper-17">Events</Link>
 
           <img
             className="search"

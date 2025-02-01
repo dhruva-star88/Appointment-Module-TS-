@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Afacad:500,400,700|Yeseva+One:400|Inter:400");
+@import "tailwindcss";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
       * {
         -webkit-font-smoothing: antialiased;
@@ -18,4 +19,3 @@
         text-decoration: none;
       }
 
-@import "tailwindcss";

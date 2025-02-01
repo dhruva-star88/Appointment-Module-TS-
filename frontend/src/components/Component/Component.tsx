@@ -96,6 +96,7 @@ export const Component = ({
               stateProp={state.property1 === "frame-762" ? "enable" : "disable"}
               text="View profile"
               divClassName={divClassName}
+              navigateTo="/view-profile"
             />
             <Button
               CTA="NEXT"
@@ -105,6 +106,7 @@ export const Component = ({
               stateProp={state.property1 === "frame-762" ? "enable" : "disable"}
               text="Book session"
               divClassName={divClassName}
+              navigateTo="/book-session"
             />
           </div>
         </div>

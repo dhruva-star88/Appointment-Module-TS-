@@ -1,4 +1,5 @@
 import { Logo } from "../Logo";
+import { Link } from "react-router-dom";
 import "./bottomnavigation.css";
 
 interface Props {
@@ -17,39 +18,54 @@ export const BottomNavigation = ({
           <Logo className="LOGO-instance" />
           <div className="frame-17">
             <div className="frame-18">
-              <div className="text-wrapper-12">Services</div>
+              <div className="text-wrapper-12">
+                <Link to="/services" className="text-link">Services</Link>
+              </div>
 
-              <div className="text-wrapper-13">Book an Appointment</div>
+              <div className="text-wrapper-13">
+                <Link to="/" className="text-link">Book an Appointment</Link>
+              </div>
 
-              <div className="text-wrapper-13">Workshops</div>
+              <div className="text-wrapper-13">
+                <Link to="/workshops" className="text-link">Workshops</Link>
+              </div>
 
-              <div className="text-wrapper-13">Webinars</div>
+              <div className="text-wrapper-13">
+                <Link to="/webinars" className="text-link">Webinars</Link>
+              </div>
 
-              <div className="text-wrapper-13">Learning Hub</div>
+              <div className="text-wrapper-13">
+                <Link to="/learning-hub" className="text-link">Learning Hub</Link>
+              </div>
             </div>
 
             <div className="frame-18">
-              <div className="text-wrapper-12">Explore</div>
+              <div className="text-wrapper-12">
+                <Link to="/about-us" className="text-link">About Us</Link>
+              </div>
 
-              <div className="text-wrapper-13">About Us</div>
-
-              <div className="text-wrapper-13">Our Experts</div>
+              <div className="text-wrapper-13">
+                <Link to="/our-experts" className="text-link">Our Experts</Link>
+              </div>
             </div>
 
             <div className="frame-18">
-              <div className="text-wrapper-12">Support</div>
+              <div className="text-wrapper-12">
+                <Link to="/faqs" className="text-link">FAQs</Link>
+              </div>
 
-              <div className="text-wrapper-13">FAQs</div>
+              <div className="text-wrapper-13">
+                <Link to="/contact-us" className="text-link">Contact Us</Link>
+              </div>
 
-              <div className="text-wrapper-13">Contact Us</div>
-
-              <div className="text-wrapper-13">Feedback</div>
+              <div className="text-wrapper-13">
+                <Link to="/feedback" className="text-link">Feedback</Link>
+              </div>
             </div>
           </div>
 
           <div className="frame-19">
             <div className="text-wrapper-12">Connect with us</div>
-
             <img className="frame-20" alt="Frame" src={frame} />
           </div>
         </div>
@@ -57,19 +73,27 @@ export const BottomNavigation = ({
 
       <div className="frame-21">
         <div className="frame-22">
-          <div className="text-wrapper-14">Terms and Conditons</div>
+          <Link to="/terms-and-conditions" className="text-link">
+            <div className="text-wrapper-14">Terms and Conditions</div>
+          </Link>
         </div>
 
         <div className="frame-22">
-          <div className="text-wrapper-14">Privacy Policy</div>
+          <Link to="/privacy-policy" className="text-link">
+            <div className="text-wrapper-14">Privacy Policy</div>
+          </Link>
         </div>
 
         <div className="frame-22">
-          <div className="text-wrapper-14">Content Policy</div>
+          <Link to="/content-policy" className="text-link">
+            <div className="text-wrapper-14">Content Policy</div>
+          </Link>
         </div>
 
         <div className="frame-22">
-          <div className="text-wrapper-14">Cookie Policy</div>
+          <Link to="/cookie-policy" className="text-link">
+            <div className="text-wrapper-14">Cookie Policy</div>
+          </Link>
         </div>
       </div>
     </div>

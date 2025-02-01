@@ -1,4 +1,5 @@
 import { useReducer } from "react";
+import { useNavigate } from "react-router-dom";
 import "./button.css";
 
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
   className: any;
   text?: string;
   divClassName?: any;
+  navigateTo?: string;
 }
 
 function Button({
@@ -19,7 +21,12 @@ function Button({
   className,
   text = "Next",
   divClassName,
+  navigateTo,
 }: Props): JSX.Element {
+
+  // Initializing Navigation
+  const navigate = useNavigate();
+
   const [state, dispatch] = useReducer(reducer, {
     iconType: iconType || "no-icon",
     state: stateProp || "disable",
@@ -32,6 +39,9 @@ function Button({
       className={`button ${state.state} ${className}`}
       onMouseLeave={() => dispatch("mouse_leave")}
       onMouseEnter={() => dispatch("mouse_enter")}
+      onClick={() => {
+        if(navigateTo) navigate(navigateTo);
+      }}
     >
       <div className="frame">
         <div className={`next ${divClassName}`}>
