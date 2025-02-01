@@ -1,0 +1,82 @@
+.property-default-wrapper {
+  align-items: center;
+  background-color: var(--primary-4);
+  display: flex;
+  gap: 8px;
+  height: 578px;
+  justify-content: center;
+  padding: 40px 144px;
+  position: relative;
+  width: 100%;
+  margin-top: 1100px;
+}
+
+.property-default-wrapper .frame-24 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  position: relative;
+}
+
+.property-default-wrapper .frame-25 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.property-default-wrapper .frame-26 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.property-default-wrapper .connect-svgrepo-com {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.property-default-wrapper .text-wrapper-15 {
+  color: #2c4916;
+  font-family: "Yeseva One", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-default-wrapper .text-wrapper-16 {
+  align-self: stretch;
+  color: #5a6651;
+  font-family: "Afacad", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.property-default-wrapper .frame-27 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}

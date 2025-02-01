@@ -1,0 +1,133 @@
+.bottom-navigation {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+   
+  }
+  
+  .bottom-navigation .frame-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--primary-4);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 144px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bottom-navigation .frame-16 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 40px 0px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bottom-navigation .LOGO-instance {
+    position: relative !important;
+  }
+  
+  .bottom-navigation .frame-17 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 88px;
+    position: relative;
+  }
+  
+  .bottom-navigation .frame-18 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 17px;
+    position: relative;
+  }
+  
+  .bottom-navigation .text-wrapper-12 {
+    align-self: stretch;
+    color: #2c4916;
+    font-family: "Afacad", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .bottom-navigation .text-wrapper-13 {
+    align-self: stretch;
+    color: #2c4916;
+    font-family: "Afacad", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .bottom-navigation .frame-19 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 26px;
+    position: relative;
+  }
+  
+  .bottom-navigation .frame-20 {
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bottom-navigation .frame-21 {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--primary-4);
+    border-color: #5a6651;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    gap: 41px;
+    height: 50px;
+    justify-content: center;
+    padding: 8px 160px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bottom-navigation .frame-22 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: -0.50px;
+    margin-top: -0.50px;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .bottom-navigation .text-wrapper-14 {
+    color: #5a6651;
+    font-family: "Afacad", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+  }
+  

@@ -1,0 +1,38 @@
+.each-statements {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+    position: relative;
+    width: 461px;
+  }
+  
+  .each-statements .profession-type-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .each-statements .profession-type {
+    color: #5a6651;
+    font-family: "Afacad", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .each-statements .pcb {
+    height: 32px;
+    position: relative;
+    width: 32px;
+  }
+  

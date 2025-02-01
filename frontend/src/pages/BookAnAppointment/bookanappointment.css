@@ -1,0 +1,364 @@
+/* Whole Body */
+.book-an-appointment {
+    background-color: #fffef7;
+    height: 2615px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Offer Section */
+.book-an-appointment .FLAT-OFF-on-your-wrapper {
+align-items: center;
+background-color: var(--primary-4);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-color: var(--primary-2);
+display: flex;
+gap: 8px;
+justify-content: center;
+left: 0;
+padding: 8px;
+position: absolute;
+top: 62px;
+width: 100%;
+margin-top: -62px;
+}
+
+.book-an-appointment .FLAT-OFF-on-your {
+color: #517e2d;
+font-family: "Afacad", Helvetica;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0;
+line-height: normal;
+margin-top: -1.00px;
+position: relative;
+text-align: center;
+width: fit-content;
+}
+
+.book-an-appointment .span {
+    font-weight: 700;
+  }
+
+
+.book-an-appointment .text-wrapper-18 {
+  font-weight: 600;
+}
+
+.book-an-appointment .overlap-group {
+  height: 949px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 1440px;
+}
+
+.book-an-appointment .frame-32 {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  left: 279px;
+  max-width: 723px;
+  position: absolute;
+  top: 18px;
+}
+
+.book-an-appointment .frame-33 {
+  align-items: center;
+  background-color: var(--primary-4);
+  border: 1px solid;
+  border-color: #f5ffee;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  padding: 2px 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.book-an-appointment .frame-34 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  position: relative;
+}
+
+.book-an-appointment .text-wrapper-19 {
+  color: #2c4916;
+  font-family: "Afacad", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.book-an-appointment .frame-35 {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.book-an-appointment .frame-36 {
+  align-items: center;
+  background-color: var(--primary-4);
+  border: 1px solid;
+  border-color: #f5ffee;
+  border-radius: 16px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  height: 32px;
+  justify-content: center;
+  padding: 2px 8px;
+  position: relative;
+  z-index: 0;
+}
+
+.book-an-appointment .frame-37 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  left: 0;
+  position: absolute;
+  top: 72px;
+  width: 100%;
+}
+
+.book-an-appointment .frame-38 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  gap: 56px;
+  position: relative;
+  width: 1152px;
+}
+
+.book-an-appointment .frame-39 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+  position: relative;
+  width: 100%;
+}
+
+.book-an-appointment .frame-40 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.book-an-appointment .component-74 {
+  font-weight: 400 !important;
+}
+
+.book-an-appointment .BAR-instance {
+  flex: 0 0 auto !important;
+}
+
+.book-an-appointment .BAR-2 {
+  color: #2c4916 !important;
+  font-family: "Afacad", Helvetica !important;
+  white-space: unset !important;
+}
+
+.book-an-appointment .BAR-3 {
+  color: #5a6651 !important;
+  font-family: "Afacad", Helvetica !important;
+  white-space: unset !important;
+}
+
+.book-an-appointment .component-225 {
+  left: 144px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.book-an-appointment .frame-41 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  left: 0;
+  position: absolute;
+  top: 1782px;
+  width: 100%;
+}
+
+.book-an-appointment .frame-42 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 1152px;
+}
+
+.book-an-appointment .frame-43 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.book-an-appointment .faq-svgrepo-com {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.book-an-appointment .text-wrapper-20 {
+  color: #517e2d;
+  font-family: "Yeseva One", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.book-an-appointment .frame-44 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.book-an-appointment .frame-45 {
+  align-items: center;
+  background-color: var(--primary-4);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  position: relative;
+  width: 760px;
+}
+
+.book-an-appointment .text-wrapper-21 {
+  color: #5a6651;
+  font-family: "Afacad", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.book-an-appointment .vector-2 {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.book-an-appointment .text-wrapper-22 {
+  color: #517e2d;
+  font-family: "Afacad", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.book-an-appointment .frame-46 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.book-an-appointment .FAQ-format {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--primary-3);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+  width: 1152px;
+}
+
+.book-an-appointment .frame-47 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.book-an-appointment .text-wrapper-23 {
+  color: #2c4916;
+  flex: 1;
+  font-family: "Afacad", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.book-an-appointment .bottom-navigation-bar {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.book-an-appointment .component-87 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 1127px !important;
+}
+
+.book-an-appointment .top-navigation-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+  

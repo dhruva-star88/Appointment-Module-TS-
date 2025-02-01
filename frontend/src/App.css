@@ -1,0 +1,14 @@
+:root {
+  --accent: rgba(255, 129, 47, 1);
+  --backgorund: rgba(250, 255, 246, 1);
+  --errors: rgba(221, 58, 46, 1);
+  --font-active: rgba(57, 57, 57, 1);
+  --font-inactive: rgba(116, 116, 116, 1);
+  --grey-1: rgba(191, 191, 191, 1);
+  --grey-2: rgba(236, 236, 236, 1);
+  --primary-1: rgba(82, 127, 46, 1);
+  --primary-2: rgba(109, 168, 62, 1);
+  --primary-3: rgba(200, 225, 177, 1);
+  --primary-4: rgba(231, 249, 217, 1);
+  --primary-5: rgba(246, 255, 238, 1);
+}

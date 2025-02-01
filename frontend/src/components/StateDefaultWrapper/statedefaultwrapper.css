@@ -1,0 +1,28 @@
+.state-default-wrapper {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    padding: 6px 8px;
+    position: relative;
+  }
+  
+  .state-default-wrapper .concern {
+    color: #2c4916;
+    font-family: "Afacad", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .state-default-wrapper.INACTIVE {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--accent);
+  }
+  

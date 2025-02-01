@@ -1,0 +1,86 @@
+.option-chat-state-wrapper {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--primary-2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  position: relative;
+  width: 270px;
+}
+
+.option-chat-state-wrapper .chat-line-svgrepo {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.option-chat-state-wrapper .frame-23 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.option-chat-state-wrapper .live-chat {
+  color: #2c4916;
+  font-family: "Afacad", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.option-chat-state-wrapper .have-a-personalized {
+  align-self: stretch;
+  color: #5a6651;
+  font-family: "Afacad", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+.option-chat-state-wrapper .class-3 {
+  background-color: var(--accent) !important;
+  flex: 0 0 auto !important;
+  padding: 8px 16px !important;
+}
+
+.option-chat-state-wrapper .class-4 {
+  flex: 0 0 auto !important;
+  padding: 8px 16px !important;
+}
+
+.option-chat-state-wrapper .class-5 {
+  font-weight: 500 !important;
+}
+
+.option-chat-state-wrapper .replies-within {
+  align-self: stretch;
+  color: #5a6651;
+  font-family: "Afacad", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+.option-chat-state-wrapper.hover {
+  background-color: #f5ffee;
+  box-shadow: 0px 4px 4px #00000040;
+}

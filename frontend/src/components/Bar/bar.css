@@ -1,0 +1,51 @@
+.BAR {
+    align-items: center;
+    display: inline-flex;
+    gap: 24px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .BAR .frame-10 {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .BAR .frame-11 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .BAR .text-wrapper-8 {
+    color: var(--font-active);
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .BAR .text-wrapper-9 {
+    color: var(--font-inactive);
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
