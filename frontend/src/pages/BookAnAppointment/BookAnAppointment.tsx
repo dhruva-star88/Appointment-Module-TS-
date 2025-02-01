@@ -1,7 +1,7 @@
 import "./bookanappointment.css"
 import { BottomNavigation } from "../../components/BottomNavigation"
-import { PropertyDefaultWrapper } from "../../components/PropertyDefaultWrapper"
-import { Component } from "../../components/Component"
+import { HelperBlock } from "../../components/HelperBlock"
+import { Component } from "../../components/TherapistProfiles"
 import { Bar } from "../../components/Bar"
 //import { FiltersWrapper } from "../../components/FiltersWrapper"
 
@@ -75,7 +75,7 @@ function BookAnAppointment() {
         </div>
         
         {/* Helper Block */}
-        <PropertyDefaultWrapper property1="default" className="" optionChatStateWrapperSupportSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/support-svgrepo-com-1.svg"/>
+        <HelperBlock property1="default" className="" optionChatStateWrapperSupportSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/support-svgrepo-com-1.svg"/>
         
         {/* Frequently asked Questions */}
         <div className="frame-41">

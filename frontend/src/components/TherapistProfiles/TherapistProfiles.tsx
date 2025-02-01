@@ -1,13 +1,12 @@
 import { useReducer } from "react";
 import { Component234_1 } from "../../icons/Component234_1";
 import { Button } from "../Button";
-import "./style.css";
+import "./therapistprofile.css";
 
 interface Props {
   property1: "frame-762" | "frame-761";
   divClassName?: any;
   starSvgrepoCom: string;
-  
 }
 
 export const Component = ({

@@ -1,5 +1,5 @@
-import { OptionChatStateWrapper } from "../OptionChatStateWrapper";
-import "./propertydefaultwrapper.css";
+import { HelperBlockBoxes } from "./HelperBlockBoxes";
+import "./helperblock.css";
 
 interface Props {
   property1: "default";
@@ -7,7 +7,7 @@ interface Props {
   optionChatStateWrapperSupportSvgrepoCom: string;
 }
 
-export const PropertyDefaultWrapper = ({
+export const HelperBlock = ({
   //property1,
   className,
   optionChatStateWrapperSupportSvgrepoCom = "https://c.animaapp.com/e1d4PZQa/img/support-svgrepo-com-1.svg",
@@ -36,12 +36,12 @@ export const PropertyDefaultWrapper = ({
         </div>
 
         <div className="frame-27">
-          <OptionChatStateWrapper
+          <HelperBlockBoxes
             chatLineSvgrepo="https://c.animaapp.com/e1d4PZQa/img/chat-line-svgrepo-com-1-3.svg"
             option="chat"
             stateProp="unselect"
           />
-          <OptionChatStateWrapper
+          <HelperBlockBoxes
             option="call"
             stateProp="unselect"
             supportSvgrepoCom={optionChatStateWrapperSupportSvgrepoCom}

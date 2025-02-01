@@ -1,6 +1,6 @@
 import { useReducer } from "react";
-import { Button } from "../Button";
-import "./optionchatstatewrapper.css";
+import { Button } from "../../Button";
+import "./helperblockboxes.css";
 
 interface Props {
   option: "chat" | "call";
@@ -9,7 +9,7 @@ interface Props {
   supportSvgrepoCom?: string;
 }
 
-export const OptionChatStateWrapper = ({
+export const HelperBlockBoxes = ({
   option,
   stateProp,
   chatLineSvgrepo = "https://c.animaapp.com/e1d4PZQa/img/chat-line-svgrepo-com-1-2.svg",
