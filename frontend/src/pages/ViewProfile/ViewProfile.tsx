@@ -317,11 +317,7 @@ function ViewProfile(){
                 </div>
 
                 <CallSupportButton
-                  CTA="NEXT"
                   className="design-component-instance-node"
-                  hover
-                  iconType="no-icon"
-                  state="enable"
                   text="Call support"
                 />
               </div>
@@ -345,7 +341,7 @@ function ViewProfile(){
                   />
                 </div>
               </div>
-            </div>
+              </div>
             </div>
             {/* Book Session Button */}
             <div className="button-wrapper">

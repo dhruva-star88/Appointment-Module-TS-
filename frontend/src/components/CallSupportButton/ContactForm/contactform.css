@@ -1,0 +1,114 @@
+.contact-form-container{
+    width: 380px;
+    height: 260px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-data{
+    width: 380px;
+    height: 196px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.full-name input{
+    width: 380px;
+    height: 38px;
+    border-radius: 13.31px;
+    border: 0.83px solid rgba(191, 191, 191, 1);
+    padding: 8px, 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.full-name input::placeholder{
+        width: 67px;
+        height: 16px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15.73px;
+        color: rgba(116, 116, 116, 1);
+        text-align: right;
+    }
+
+
+.contact-number input{
+    width: 380px;
+    height: 38px;
+    border-radius: 13.31px;
+    border: 0.83px solid rgba(191, 191, 191, 1);
+    padding: 8px, 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+    .contact-number input::placeholder{
+        width: 77px;
+        height: 16px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15.73px;
+        color: rgba(116, 116, 116, 1);
+        text-align: right;
+    }
+
+
+.message textarea {
+    width: 380px;
+    height: 96px;
+    border-radius: 13.31px;
+    border: 0.83px solid rgba(191, 191, 191, 1);
+    gap: 8px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px 4px 10px 4px; 
+    
+}
+    .message textarea::placeholder{
+        width: 140px;
+        height: 16px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15.73px;
+        color: rgba(116, 116, 116, 1);
+        margin-right: 20px;
+        margin-top: 1px;
+        text-align:center;
+    }
+
+
+.submit-btn{
+    width: 255px;
+    height: 48px;
+    border-radius: 32px;
+    padding: 8px, 40px;
+    gap: 8px;
+    background-color: rgba(255, 129, 47, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+
+    .submit{
+        width: 135px;
+        height: 24px;
+        padding-right: 12px;
+        padding-left: 12px;
+        gap:8px;
+        color: white;
+    }
+}

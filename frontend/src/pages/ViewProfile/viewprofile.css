@@ -317,7 +317,7 @@
     display: flex;
     flex-direction: column;
     gap: 120px;
-    left: 0;
+    left: 45px;
     position: absolute;
     top: 853px;
     width: 1440px;
