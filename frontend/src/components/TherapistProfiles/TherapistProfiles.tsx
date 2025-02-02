@@ -9,7 +9,7 @@ interface Props {
   starSvgrepoCom: string;
 }
 
-export const Component = ({
+export const TherapistProfile = ({
   property1,
   divClassName,
   starSvgrepoCom = "https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1.svg",

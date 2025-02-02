@@ -1,7 +1,7 @@
 import "./bookanappointment.css"
 import { BottomNavigation } from "../../components/BottomNavigation"
 import { HelperBlock } from "../../components/HelperBlock"
-import { Component } from "../../components/TherapistProfiles"
+import { TherapistProfile } from "../../components/TherapistProfiles"
 import { Bar } from "../../components/Bar"
 //import { FiltersWrapper } from "../../components/FiltersWrapper"
 
@@ -25,12 +25,12 @@ function BookAnAppointment() {
           <div className="frame-38">
             <div className="frame-39">
               <div className="frame-40">
-                <Component
+                <TherapistProfile
                   divClassName="component-74"
                   property1="frame-761"
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-2.svg"
                 />
-                <Component
+                <TherapistProfile
                   divClassName="component-74"
                   property1="frame-761"
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-3.svg"
@@ -38,12 +38,12 @@ function BookAnAppointment() {
               </div>
 
               <div className="frame-40">
-                <Component
+                <TherapistProfile
                   divClassName="component-74"
                   property1="frame-761"
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-4.svg"
                 />
-                <Component
+                <TherapistProfile
                   divClassName="component-74"
                   property1="frame-761"
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-5.svg"
@@ -51,12 +51,12 @@ function BookAnAppointment() {
               </div>
 
               <div className="frame-40">
-                <Component
+                <TherapistProfile
                   divClassName="component-74"
                   property1="frame-761"
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-6.svg"
                 />
-                <Component
+                <TherapistProfile
                   divClassName="component-74"
                   property1="frame-761"
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-7.svg"
@@ -169,8 +169,7 @@ function BookAnAppointment() {
           </div>
           
         </div>
-        {/* Bottom Navigation */}
-        <BottomNavigation className="defaultclass" frame="https://c.animaapp.com/e1d4PZQa/img/frame-4521.svg"/>
+        
       </div>
     </div>
     </>

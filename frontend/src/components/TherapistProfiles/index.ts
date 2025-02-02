@@ -1,1 +1,1 @@
-export { Component } from "./TherapistProfiles";
+export { TherapistProfile } from "./TherapistProfiles";
