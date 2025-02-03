@@ -1,25 +1,36 @@
 import { BackButton } from "../../components/BackButton(book-session)"
+import { Stepper } from "../../components/Stepper"
+import { Payment } from "../../components/StepperComponents/Payment"
+import { ProvideDetails } from "../../components/StepperComponents/ProvideDetails"
+import { SessionDetails } from "../../components/StepperComponents/SessionDetails"
 import "./booksession.css"
 
 export const BookSession = () => {
+  const CHECK_STEPS = [
+    {
+      name: "Session Details",
+      Component:() => <SessionDetails />
+    },
+    {
+      name: "Provide your Details",
+      Component:() => <ProvideDetails />
+    },
+    {
+      name: "Checkout & Payment",
+      Component:() => <Payment />
+    },
+  ] 
   return(
     <>
     <div className="book-session">
       <div className="book-session-map">
         <BackButton />
-        <div className="route"></div>
-      </div>
-      <div className="session-details">
-        <p>Session Deatils</p>
-        <div className="data">
-          <div className="session">
-            <div className="session-with"></div>
-            <div className="session-price"></div>
-          </div>
-          <div className="slot"></div>
+        <div className="checkout-stepper">
+          <Stepper stepsConfig = {CHECK_STEPS}/>
         </div>
-        <div className="proceed"></div>
       </div>
+      {/* Session Details Block */}
+      <SessionDetails />
     </div>
     </>
   )

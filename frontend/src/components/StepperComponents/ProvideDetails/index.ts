@@ -1,0 +1,1 @@
+export {ProvideDetails} from "./ProvideDetails"
