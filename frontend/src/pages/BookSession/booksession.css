@@ -12,7 +12,6 @@
     height: 126px;
     top: 124px;
     left: 144px;
-    background-color: rgb(119, 208, 208);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +20,18 @@
 .checkout-stepper{
     width: 851px;
     height: 62px;
-    background-color: bisque;
+}
+
+.btn{
+    width: 363px;
+    height: 48px;
+    border-radius: 32px;
+    padding: 8px, 120px;
+    gap: 8px;
+    background-color: rgba(255, 129, 47, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(246, 255, 238, 1);
 }
 
