@@ -1,0 +1,34 @@
+.back-svgrepo-com {
+    height: 40px;
+    left: 200px;
+    position: absolute;
+    top: 140px;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+.overlap-group {
+    background-color: var(--accent);
+    border-radius: 18px;
+    height: 36px;
+    left: 2px;
+    position: relative;
+    top: 2px;
+    width: 36px;
+  }
+  
+.vector {
+    height: 2px;
+    left: 9px;
+    position: absolute;
+    top: 17px;
+    width: 19px;
+  }
+  
+.vector-2 {
+    height: 18px;
+    left: 8px;
+    position: absolute;
+    top: 9px;
+    width: 10px;
+  }

@@ -1,5 +1,4 @@
 import "./bookanappointment.css"
-import { BottomNavigation } from "../../components/BottomNavigation"
 import { HelperBlock } from "../../components/HelperBlock"
 import { TherapistProfile } from "../../components/TherapistProfiles"
 import { Bar } from "../../components/Bar"
@@ -10,16 +9,8 @@ function BookAnAppointment() {
   return (
     <>
     <div className="book-an-appointment">
-      <div className="FLAT-OFF-on-your-wrapper">
-        <p className="FLAT-OFF-on-your">
-          <span className="span">FLAT 300 OFF</span>
-
-          <span className="text-wrapper-18">
-            {" "}
-            on your first session | Use Code : S300 |
-          </span>
-        </p>
-      </div>
+      {/* Offer Block */}
+      
       <div className="frame-37">
         {/* Therapist Profile Part */}
           <div className="frame-38">

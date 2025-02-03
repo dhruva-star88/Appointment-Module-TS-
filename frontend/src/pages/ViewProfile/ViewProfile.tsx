@@ -3,6 +3,7 @@ import { BookSessionButton } from "../../components/BookSessionButton"
 import "./viewprofile.css"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react";
+// import {Offer} from "../../components/Offer";
 
 function ViewProfile(){
   const [isExpanded, setIsExpanded] = useState(false);
@@ -20,6 +21,7 @@ function ViewProfile(){
   return (
     <>
     <div className="psychologist-profile">
+
       <div className="overlap">
         <div className="rectangle" />
 

@@ -10,7 +10,7 @@ import MainLayout from "./layouts/MainLayout";
 import BookAnAppointment from "./pages/BookAnAppointment/BookAnAppointment";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import ViewProfile from "./pages/ViewProfile/ViewProfile";
-import BookSession from "./pages/BookSession/BookSession";
+import {BookSession} from "./pages/BookSession";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

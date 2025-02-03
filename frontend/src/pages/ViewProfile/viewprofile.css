@@ -3,6 +3,7 @@
     height: 2350px;
     overflow: hidden;
     position: relative;
+    margin-top: 38px;
     width: 100%;
     /* display: flex;
     justify-content: center;
@@ -13,7 +14,8 @@
     height: 690px;
     left: 190px;
     position: absolute;
-    top: 99px;
+    top: 99px;  
+    /* top: 135px */
     width: 1152px;
     margin-top: -99px;
   }
