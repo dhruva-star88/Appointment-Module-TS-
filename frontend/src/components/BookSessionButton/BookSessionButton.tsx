@@ -23,7 +23,7 @@ export const BookSessionButton = ({
 
   const navigate = useNavigate();
   return (
-    <button className={`button ${className}`} 
+    <button className={`book-button ${className}`} 
     onClick={() => {
       if(navigateTo) navigate(navigateTo);
     }}>
