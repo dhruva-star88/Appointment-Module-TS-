@@ -4,8 +4,8 @@ import { Stepper } from "../../components/Stepper";
 import { Payment } from "../../components/StepperComponents/Payment";
 import { ProvideDetails } from "../../components/StepperComponents/ProvideDetails";
 import { SessionDetails } from "../../components/StepperComponents/SessionDetails";
-import "./booksession.css";
 import { useNavigate } from "react-router-dom";
+import "./booksession.css";
 
 export const BookSession = () => {
   const [currentStep, setCurrentStep] = useState(1);
