@@ -311,15 +311,7 @@
     text-decoration: underline;
 }
 
-/* Coupons */
-.coupons{
-    width: 761px;
-    height: 438px;
-    border-radius: 24px;
-    border: 0.5px solid rgba(191, 191, 191, 1);
-    padding: 16px;
-    gap: 16px;
-}
+
 
 /* Billing */
 .billing{
@@ -355,3 +347,124 @@
     color: rgba(57, 57, 57, 1);
 }
 
+.payment1{
+    width: 729px;
+    height: 147px;
+    border-radius: 8px;
+    padding: 16px, 40px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-inner1{
+    width: 400px;
+    height: 115px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sum{
+    width: 400px;
+    height: 72px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sum-header{
+    width: 200px;
+    height: 78px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sum-header p{
+    width: 93px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.sum-header h3{
+    width: 150px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.sum-value{
+    width: 100px;
+    height: 78px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.sum-value p{
+    text-align: end;
+    width: 93px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.sum-value h3{
+    text-align: end;
+    width: 93px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: var(--primary-2);
+}
+
+.total{
+    width: 400px;
+    height: 35px;
+    gap: 8px;
+    margin-top: -40px;
+    border-top: 1px solid var(--primary-2);
+    padding-top: 1px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.total h3{
+    width: 104px;
+    height: 19px;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.total p{
+    width: 46px;
+    height: 19px;
+    gap: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(57, 57, 57, 1);
+    text-align: right;
+}

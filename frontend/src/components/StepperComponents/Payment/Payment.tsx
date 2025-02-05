@@ -2,6 +2,7 @@ import "./payment.css";
 import { Link } from "react-router-dom";
 import Edit from "../../../assets/edit.png";
 import User from "../../../assets/user.jpg";
+import { ApplyCoupon } from "./ApplyCoupon";
 
 export const Payment = () => {
     return(
@@ -60,11 +61,31 @@ export const Payment = () => {
                     </div>
                 </div>
                 {/* Offer-Coupons */}
-                <div className="coupons"></div>
+                <ApplyCoupon />
                 {/* Billing */}
                 <div className="billing">
                     <div className="billing-header1">
-                        <p>Billing</p>
+                        <p>Billing Details</p>
+                    </div>
+                    <div className="payment1">
+                        <div className="payment-inner1">
+                            <div className="sum">
+                                <div className="sum-header">
+                                    <p>Session Cost</p>
+                                    <p>GST (18%)</p>
+                                    <h3>Coupon Discount</h3>
+                                </div>
+                                <div className="sum-value">
+                                    <p>1000</p>
+                                    <p>800</p>
+                                    <h3>-300</h3>
+                                </div>
+                            </div>
+                            <div className="total">
+                                <h3>Total Amount</h3>
+                                <p>&#8377; 1180</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
