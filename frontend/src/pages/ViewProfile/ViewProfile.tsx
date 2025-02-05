@@ -32,7 +32,7 @@ function ViewProfile(){
           iconType="no-icon"
           state="enable"
           text="Book Session"
-          navigateTo="/book-session"
+          navigateTo="/book-session#booking-session"
         />
         {/* Frame- 10 Therapist Details */}
         <div className="frame-10">
@@ -354,7 +354,7 @@ function ViewProfile(){
                   iconType="no-icon"
                   state="enable"
                   text="Book Session"
-                  navigateTo="/book-session"
+                  navigateTo="/book-session#booking-session"
                 />
               </div>
           </div>

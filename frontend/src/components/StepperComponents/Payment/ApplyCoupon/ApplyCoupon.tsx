@@ -1,12 +1,17 @@
 import "./applycoupon.css"
 import Down from "../../../../assets/down.png"
 import Up from "../../../../assets/up.png"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Tick from "../../../../assets/check.png"
 
-export const ApplyCoupon = () => {
+interface ApplyCouponprops{
+    updateSavings:(savings: number) => void; // Function to update the savings in the parent
+}
+
+export const ApplyCoupon = ({updateSavings} : ApplyCouponprops) => {
     const[isOpen, setIsOpen] = useState(false);
     const[checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+    const offer = 300;
 
     const handleOpen = () => {
         setIsOpen(!isOpen)
@@ -18,6 +23,32 @@ export const ApplyCoupon = () => {
             [index]: !prev[index],
         }))
     }
+
+    const handleApplyCoupon = () => {
+        // Calculate the total savings based on checked items
+        const totalSavings = Object.keys(checkedItems).reduce((total, index) => {
+            return checkedItems[Number(index)] ? total + offer : total;
+        }, 0);
+
+        // Update the savings in the parent component
+        updateSavings(totalSavings);
+    };
+
+    useEffect(() => {
+        // If a coupon is unchecked, reset savings to 0 immediately
+        if (Object.values(checkedItems).every(value => !value)) {
+            updateSavings(0);
+        }
+    }, [checkedItems, updateSavings]); // This triggers when the checkbox state changes
+
+    
+
+    // Calculate total savings based on checked items
+    const totalSavings = Object.keys(checkedItems).reduce((total, index) => {
+        return checkedItems[Number(index)] ? total + offer : total;
+    }, 0)
+    console.log("Total Savings is" ,totalSavings);
+
 
     return(
         <>
@@ -52,9 +83,9 @@ export const ApplyCoupon = () => {
                         </div>
                     ))}
                 </div>
-                <div className="savings">
-                    <p>Savings: &#8377;<span>0</span></p>
-                    <div className="apply1">
+                <div className={`savings ${totalSavings > 0 ? "checked" : ""}`}>
+                    <p>Savings: &#8377;<span>{totalSavings}</span></p>
+                    <div className={`apply1 ${totalSavings > 0 ? "checked" : ""}`} onClick={handleApplyCoupon}>
                         Apply
                     </div>
                 </div>

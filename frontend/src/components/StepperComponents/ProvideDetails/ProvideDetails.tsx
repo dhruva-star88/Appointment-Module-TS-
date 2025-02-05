@@ -2,7 +2,11 @@ import  "./providedetails.css"
 import Attachment from "../../../assets/attachment.png"
 import React, { useState } from "react"
 
-export const ProvideDetails = () => {
+interface ProvideDetailsProps {
+    focusRef: React.RefObject<HTMLInputElement>;
+  }
+
+export const ProvideDetails = ({ focusRef }: ProvideDetailsProps) => {
     // State to track the file name
     const[fileName, setFileName] = useState<String | null>(null);
 
@@ -35,7 +39,7 @@ export const ProvideDetails = () => {
                 <div className="name1">
                     <h2>Full Name</h2>
                     <div className="input-group">
-                        <input className="fname" type="text" placeholder="First Name*" />
+                        <input ref={focusRef} className="fname" type="text" placeholder="First Name*" />
                         <input className="fname" type="text" placeholder="Last Name" />
                     </div>
                 </div>

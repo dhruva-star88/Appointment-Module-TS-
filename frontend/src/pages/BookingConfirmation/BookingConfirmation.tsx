@@ -1,10 +1,24 @@
+import { useLocation } from "react-router-dom"
 import { ConfirmationButton } from "../../components/ConfirmationButton"
 import "./bookingconfirmation.css"
+import { useEffect } from "react";
 
 function BookingConfirmation(){
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if(location.hash){
+      const element = document.querySelector(location.hash);
+      if(element){
+        element.scrollIntoView({behavior:"smooth"})
+      }
+    }
+  }, [location])
+
   return (
     <>
-    <div className="booking-confirmation">
+    <div className="booking-confirmation" id="booking-summary">
     <div className="frame-10">
         <img
           className="group"

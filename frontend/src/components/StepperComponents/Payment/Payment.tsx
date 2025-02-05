@@ -3,14 +3,36 @@ import { Link } from "react-router-dom";
 import Edit from "../../../assets/edit.png";
 import User from "../../../assets/user.jpg";
 import { ApplyCoupon } from "./ApplyCoupon";
+import { useEffect, useState } from "react";
 
-export const Payment = () => {
+interface PaymentProps {
+    focusRef: React.RefObject<HTMLInputElement>;
+  }
+
+export const Payment = ({ focusRef }: PaymentProps) => {
+
+    useEffect(() => {
+        // Focus on the first field when the component is rendered
+        focusRef.current?.focus();
+      }, []);
+
+    const [totalSavings, setTotalSavings] = useState(0);
+
+    const updateSavings = (savings: number) => {
+        setTotalSavings(savings)
+    }
+
+    // Calculate the total amount
+    const sessionCost = 1000;
+    const gst = 0.18 * sessionCost;
+    const totalAmount = sessionCost + gst - totalSavings;
+
     return(
         <>
         <div className="payment">
             <h3>Checkout & Payment</h3>
             <div className="checkout-details">
-                <div className="session-with1">
+                <div ref={focusRef}  className="session-with1" tabIndex={-1}>
                     <div className="session-head">
                         <p>Session with</p>
                         <Link to=""><span><img src={Edit} alt="" /></span>Edit</Link>
@@ -61,7 +83,7 @@ export const Payment = () => {
                     </div>
                 </div>
                 {/* Offer-Coupons */}
-                <ApplyCoupon />
+                <ApplyCoupon updateSavings = { updateSavings }/>
                 {/* Billing */}
                 <div className="billing">
                     <div className="billing-header1">
@@ -76,14 +98,14 @@ export const Payment = () => {
                                     <h3>Coupon Discount</h3>
                                 </div>
                                 <div className="sum-value">
-                                    <p>1000</p>
-                                    <p>800</p>
-                                    <h3>-300</h3>
+                                    <p>{sessionCost}</p>
+                                    <p>{gst}</p>
+                                    <h3>{`-${totalSavings}`}</h3>
                                 </div>
                             </div>
                             <div className="total">
                                 <h3>Total Amount</h3>
-                                <p>&#8377; 1180</p>
+                                <p>&#8377; {totalAmount}</p>
                             </div>
                         </div>
                     </div>

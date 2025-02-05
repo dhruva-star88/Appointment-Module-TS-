@@ -4,7 +4,17 @@ import "./sessiondetails.css";
 import Left from "../../../assets/left.png";
 import Right from "../../../assets/right.png";
 
-export const SessionDetails = () => {
+interface SessionDetailsProps {
+    focusRef: React.RefObject<HTMLInputElement>;
+  }
+
+export const SessionDetails = ({ focusRef }: SessionDetailsProps)  => {
+
+    useEffect(() => {
+        // Focus on the first field when the component is rendered
+        focusRef.current?.focus();
+      }, []);
+
     const data = [
         {"date": "2025-02-03", "day": "Monday"},
         {"date": "2025-02-04", "day": "Tuesday"},
@@ -50,7 +60,7 @@ export const SessionDetails = () => {
     }, []);
 
     return (
-        <div className="session-details">
+        <div ref={focusRef} className="session-details">
             <p>Session Details</p>
             <div className="data">
                 <div className="session">
