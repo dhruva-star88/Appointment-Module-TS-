@@ -1,9 +1,214 @@
 /* Coupons */
 .coupons{
     width: 761px;
-    height: 438px;
     border-radius: 24px;
     border: 0.5px solid rgba(191, 191, 191, 1);
     padding: 16px;
     gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: height 0.3s ease-in-out;
+}
+
+.coupons.closed {
+    height: 70px; /* Adjust as per your UI */
+    overflow: hidden;
+}
+
+.coupons.open{
+    height: auto;
+    animation: fadeIn 0.3s ease-in-out; /* Should add while adding the contents */
+}
+
+.coupons-header{
+    width: 729px;
+    height: 24px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coupons-header h3{
+    width: 103px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.coupons-header img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.enter-coupon{
+    width: 729px;
+    height: 51px;
+    border: 1px solid var(--primary-3);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enter-name{
+    width: 400px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15.73px;
+    color: rgb(20, 20, 20);
+}
+::placeholder{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.73px;
+    color: rgba(116, 116, 116, 1);
+}
+.enter-coupon h2{
+    width: 57px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(116, 116, 116, 1);
+    cursor: pointer;
+}
+
+.offer-layout{
+    width: 729px;
+    height: 211px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* overflow: scroll; */
+}
+
+.each-offer{
+    width: 729px;
+    height: 65px;
+    
+}
+
+.each-offer-inner{
+    width: 140px;
+    height: 56px;
+    padding: 8px, 40px;
+    gap: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.check-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(57, 57, 57, 1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-box img{
+    width: 25px;
+    height: 25px;
+    color: var(--primary-2);
+}
+
+.check-box.checked {
+    background-color: var(--primary-4);
+    border-color: var(--primary-2);
+}
+
+.offer-value{
+    width: 44px;
+    height: 19px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-left: -20px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.offer-name{
+    width: 729px;
+    height: 17px;
+    padding: 56px, 56px;
+}
+
+.offer-name p{
+    margin-left: 75px;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: rgba(57, 57, 57, 1);
+}
+
+.savings{
+    width: 729px;
+    height: 72px;
+    border-top: 1px solid var(--primary-3);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.savings p{
+    width: 200px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(116, 116, 116, 1);
+}
+
+.apply1{
+    width: 145px;
+    height: 40px;
+    border-radius: 32px;
+    border: 1px solid rgba(45, 73, 22, 1);
+    padding: 8px, 40px;
+    background-color: var(--primary-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(45, 73, 22, 1);
+    cursor: pointer;   
+}
+
+.apply1:hover{
+    border: none;
+    background-color: rgba(255, 129, 47, 1);
+    color: white;
+}
+
+
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
