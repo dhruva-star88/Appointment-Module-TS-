@@ -1,6 +1,6 @@
 .provide-details{
     width: 761px;
-    height: 1,104px;
+    /* height: 1,104px; */
     gap: 16px;
     display: flex;
     flex-direction: column;
