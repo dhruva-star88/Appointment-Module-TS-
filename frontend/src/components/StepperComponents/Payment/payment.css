@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: antiquewhite;
 }
 
 .payment h3{
@@ -16,6 +15,8 @@
     line-height: 24.2px;
     color: rgba(0, 0, 0, 1);
 }
+
+/* Checkout Details */
 
 .checkout-details{
     width: 761px;
@@ -175,6 +176,8 @@
     margin-left: 26px;
 }
 
+/* User Details */
+
 .your-details{
     width: 761px;
     height: 246px;
@@ -308,4 +311,47 @@
     text-decoration: underline;
 }
 
+/* Coupons */
+.coupons{
+    width: 761px;
+    height: 438px;
+    border-radius: 24px;
+    border: 0.5px solid rgba(191, 191, 191, 1);
+    padding: 16px;
+    gap: 16px;
+}
+
+/* Billing */
+.billing{
+    width: 761px;
+    height: 220px;
+    border-radius: 24px;
+    padding: 16px;
+    gap: 24px;
+    border: 0.5px solid rgba(191, 191, 191, 1);
+    background-color: var(--primary-4);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billing-header1{
+    width: 729px;
+    height: 17px;
+    gap: 24px;  
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+}
+
+.billing-header p{
+    width: 90px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: rgba(57, 57, 57, 1);
+}
 

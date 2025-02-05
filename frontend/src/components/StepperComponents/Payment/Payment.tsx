@@ -59,6 +59,14 @@ export const Payment = () => {
                         <p>Session Confirmation details will be shared via <span>Whatsapp</span> and <span>Email</span>.</p>
                     </div>
                 </div>
+                {/* Offer-Coupons */}
+                <div className="coupons"></div>
+                {/* Billing */}
+                <div className="billing">
+                    <div className="billing-header1">
+                        <p>Billing</p>
+                    </div>
+                </div>
             </div>
         </div>
         </>
