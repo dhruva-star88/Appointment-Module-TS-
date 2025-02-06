@@ -1,7 +1,7 @@
 import { useReducer } from "react";
-import { Component234_1 } from "../../icons/Component234_1";
 import { Button } from "../Button";
 import "./therapistprofile.css";
+import { BookMark } from "../../icons/BookMark";
 
 interface Props {
   property1: "frame-762" | "frame-761";
@@ -34,35 +34,36 @@ export const TherapistProfile = ({
           alt="Rectangle"
           src="https://c.animaapp.com/e1d4PZQa/img/rectangle-187-7@2x.png"
         />
-
+        {/* Content inside the profile-card except the photo */}
         <div className="frame-2">
           <div className="frame-3">
             <div className="frame-4">
               <div className={`text-wrapper ${divClassName}`}>Maya Trivedi</div>
+              {/* top 3 icons on the top right profile-card */}
+                <div className="frame-5">
+                    {/* Rating */}
+                    <div className="frame-6">
+                      <img
+                        className="img"
+                        alt="Star svgrepo com"
+                        src={
+                          state.property1 === "frame-762"
+                            ? "https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-1.svg"
+                            : starSvgrepoCom
+                        }
+                      />
 
-              <div className="frame-5">
-                <div className="frame-6">
+                      <div className="text-wrapper-2">4.8</div>
+                    </div>
+
                   <img
                     className="img"
-                    alt="Star svgrepo com"
-                    src={
-                      state.property1 === "frame-762"
-                        ? "https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-1.svg"
-                        : starSvgrepoCom
-                    }
+                    alt="Share svgrepo com"
+                    src="https://c.animaapp.com/e1d4PZQa/img/share-svgrepo-com-1-7.svg"
                   />
 
-                  <div className="text-wrapper-2">4.8</div>
+                  <BookMark className="img" />
                 </div>
-
-                <img
-                  className="img"
-                  alt="Share svgrepo com"
-                  src="https://c.animaapp.com/e1d4PZQa/img/share-svgrepo-com-1-7.svg"
-                />
-
-                <Component234_1 className="img" />
-              </div>
             </div>
 
             <div className="frame-7">

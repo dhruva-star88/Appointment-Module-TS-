@@ -10,6 +10,7 @@
     height: 24px;
     position: relative;
     width: 24px;
+    cursor: pointer;
   }
   
   .BAR .frame-11 {
@@ -33,6 +34,7 @@
     text-decoration: underline;
     white-space: nowrap;
     width: fit-content;
+    cursor: pointer;
   }
   
   .BAR .text-wrapper-9 {
@@ -47,5 +49,6 @@
     text-align: center;
     white-space: nowrap;
     width: fit-content;
+    cursor: pointer;
   }
   

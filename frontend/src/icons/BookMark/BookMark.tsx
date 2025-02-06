@@ -2,7 +2,7 @@ interface Props {
   className: any;
 }
 
-export const Component234_1 = ({ className }: Props): JSX.Element => {
+export const BookMark = ({ className }: Props): JSX.Element => {
   return (
     <svg
       className={`component-234-1 ${className}`}

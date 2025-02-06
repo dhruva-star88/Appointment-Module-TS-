@@ -9,11 +9,11 @@ function BookAnAppointment() {
   return (
     <>
     <div className="book-an-appointment">
-      {/* Offer Block */}
-      
-      <div className="frame-37">
-        {/* Therapist Profile Part */}
+      {/* Frame-37 Contains Profiles */}
+        <div className="frame-37">
+          {/* Therapist Profile Part - Inner div */}
           <div className="frame-38">
+            {/* Therapist Profile-inner-inner div */}
             <div className="frame-39">
               <div className="frame-40">
                 <TherapistProfile
@@ -53,6 +53,18 @@ function BookAnAppointment() {
                   starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-7.svg"
                 />
               </div>
+              {/* <div className="frame-40">
+                <TherapistProfile
+                  divClassName="component-74"
+                  property1="frame-761"
+                  starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-6.svg"
+                />
+                <TherapistProfile
+                  divClassName="component-74"
+                  property1="frame-761"
+                  starSvgrepoCom="https://c.animaapp.com/e1d4PZQa/img/star-svgrepo-com-1-7.svg"
+                />
+              </div> */}
             </div>
             <Bar
               className="BAR-instance"

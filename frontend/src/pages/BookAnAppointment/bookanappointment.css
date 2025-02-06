@@ -89,6 +89,7 @@
 }
 
 .book-an-appointment .frame-37 {
+  background-color: black;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -100,6 +101,7 @@
 }
 
 .book-an-appointment .frame-38 {
+  background-color: aqua;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -109,6 +111,7 @@
   gap: 56px;
   position: relative;
   width: 1152px;
+  height: 900px;
 }
 
 .book-an-appointment .frame-39 {
